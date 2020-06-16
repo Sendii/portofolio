@@ -2,7 +2,7 @@ import React from 'react'
 
 function About(){
 	return (
-		<h1 className="text-danger">Ini About</h1>
+		<h1>Ini About</h1>
 		)
 }
 
