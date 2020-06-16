@@ -26,7 +26,7 @@ function App() {
         <Header />
           <div className="container">
             <div className="row">
-              <div className="col-sm-5" style={{backgroundColor: "red", height: "300px"}}>
+              <div className="col-sm-4" style={{backgroundColor: "red", height: "639px"}}>
                 Ini foto
               </div>
               <div className="col-sm" style={{backgroundColor: "yellow"}}>
