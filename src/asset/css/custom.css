@@ -52,7 +52,7 @@ div.card:hover {
 div.projects-scroll {
 	overflow-x: scroll;
 	overflow-x: hidden;
-	max-height: 470px;
+	max-height: 450px;
 	border-radius: 10px;
 	padding-right: 7px;
 }
@@ -91,4 +91,10 @@ div.projects-scroll .card-image img {
 }
 a{
 	font-style: italic;
+}
+#contact a{
+	width: 100%;
+}
+#contact .img-fluid {
+	/*margin-top: 10px;*/
 }
