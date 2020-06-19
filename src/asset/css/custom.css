@@ -1,5 +1,28 @@
 /*Custom scroll bar*/
 /* width */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #4da2ff; 
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #2b8ffc; 
+	cursor: pointer !important;
+}
+/*end custom*/
 #root{
 	background: url('https://lh3.googleusercontent.com/proxy/3gy-oN6jOCTdXpgyL4RnW39ghR3eiPymcGvCI4PjWhblykibBy7xJ_miydLAw1AxdA2NRXF7Pzh4pSiX2-St0CKRQEtjo24-XdFg_4YqVu9XvGhl34eMKzIoLQgziQ3i_6lm6FK5uktuSTSjruECFxh6XVG43LkyNS5Zwv_thdX7ErhvKYE');
 	background-position: center;
@@ -30,42 +53,21 @@ nav .bg-light{
 	background-color: transparent !important;
 	font-style: italic;
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	text-decoration: underline;
+	text-decoration-style: dashed;
 }
-.navbar-nav a:before, .navbar-nav a:after, {
-	background-color: yellow !important;
+.navbar-nav a:active, .navbar-nav a:focus{
+	background-color: #8fc5ff !important;
+	border-radius: 10px;	
+	text-decoration: underline;
+	font-style: italic;
 }
 .navbar-nav > a#brand {
 	font-family: "Kaushan Script", cursive;
 	font-weight: bolder;
 	font-size: 24px;
 	/*letter-spacing: 1px;*/
-	font-style: italic;
 }
-.navbar-nav > a#brand:hover{
-	font-style: normal;
-}
-::-webkit-scrollbar {
-	width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey; 
-	border-radius: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-	background: #4da2ff; 
-	border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: #2b8ffc; 
-	cursor: pointer !important;
-}
-/*end custom*/
 h2 {
 	font-family: 'Roboto';
 	font-weight: 600;
@@ -81,6 +83,8 @@ div.box-card{
 	overflow: hidden !important;
 	border-radius: 10px;
 	margin-bottom: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 div.card {
 	transition: all 1s;
@@ -155,4 +159,16 @@ div.projects-scroll .card-image img {
 	width: 350px;
 	border-radius: 50%;
 	margin-top: 30%;
+}
+#skills img {
+	height: 100px;
+	width: 120px;
+}
+#skills .col {
+	margin-left: 26%;
+}
+#skills i {
+	/*margin-right: 3px;*/
+	margin: 0 3px 10px 0;
+	font-size: 20px;
 }

@@ -5,10 +5,7 @@ function Home(){
 			<div>
 				<h2>Tentang Saya</h2>
 				<p>
-					Saya adalah Siswa lulusan SMK dari Jakarta dengan jurusan RPL(Rekayasa Perangkat Lunak).
-				</p>
-				<p style={{marginTop: "-15px"}}>
-					Saat ini saya baru memulai kuliah di Universitas Swasta di Jakarta dengan jurusan TI(Teknik Informatika) dengan kelas sore.
+					I am a SMK graduate student from Jakarta majoring in RPL (Software Engineering).At present I just started studying at a Private University in Jakarta majoring in IT (Information Engineering) with afternoon classes.
 				</p>
 			</div>
 		)
