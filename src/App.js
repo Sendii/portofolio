@@ -9,6 +9,7 @@ import Skill from './component/Skill';
 import Project from './component/Project';
 import About from './component/About';
 import Contact from './component/Contact';
+import img_human from './asset/img/human.png'
 import {
     BrowserRouter as Router,
     Switch,
@@ -18,18 +19,13 @@ import {
 function App() {
   return (
     <Router>
-        {/*<h3 className="m-3 d-flex justify-content-center">
-        React js with api demo</h3>
-        <h5 className="m-3 d-flex justify-content-center">
-        Employee Management Portal</h5>*/}
-
         <Header />
           <div className="container">
             <div className="row">
-              <div className="col-sm-4" style={{backgroundColor: "red", height: "635px", maxHeight: "635px"}}>
-                Ini foto
+              <div className="col-sm-4" style={{backgroundColor: "#3f9ebe", height: "624px", maxHeight: "624px"}}>
+                <img className="img-fluid center" id="foto" src={img_human} alt=""/>
               </div>
-              <div className="col-sm" style={{backgroundColor: "yellow", height: "635px", maxHeight: "635px"}}>
+              <div className="col-sm" style={{backgroundColor: "#daf2dc", height: "624px", maxHeight: "624px"}}>
                 <div className="mt-5 ml-4" style={{margin: "20px"}}>
                   <Switch>
                     <Route path='/' component={Home} exact />
@@ -41,7 +37,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>          
+          </div>      
     </Router>
   );
 }
