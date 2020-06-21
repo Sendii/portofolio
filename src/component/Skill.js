@@ -14,7 +14,7 @@ import img_golang from '../asset/img/golang.png'
 function Skill(){
 	return (
 		<div id="skills">
-			<h2>Skills</h2>
+			<h2>Skill</h2>
 			<div className="projects-scroll">
 				<div className="row">
 					<div className="col-md-4">

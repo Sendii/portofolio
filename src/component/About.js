@@ -31,7 +31,7 @@ function About(){
 				</div>
 			</div>
 			<div className="row" id="img-about">
-				<div className="col-md-2 offset-md-3">
+				<div className="col-md-2">
 					<img src={img_work} className="img-circle" alt="not found" />					
 				</div>
 				<div className="col ml-3">
@@ -61,7 +61,7 @@ function About(){
 				</div>
 			</div>
 			<div className="row" id="img-about">
-				<div className="col-md-2 offset-md-3">
+				<div className="col-md-2">
 					<img src={img_school} className="img-circle" alt="not found" />					
 				</div>
 				<div className="col ml-3">

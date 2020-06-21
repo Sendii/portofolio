@@ -23,16 +23,21 @@
 	cursor: pointer !important;
 }
 /*end custom*/
-#root{
-	background: url('https://lh3.googleusercontent.com/proxy/3gy-oN6jOCTdXpgyL4RnW39ghR3eiPymcGvCI4PjWhblykibBy7xJ_miydLAw1AxdA2NRXF7Pzh4pSiX2-St0CKRQEtjo24-XdFg_4YqVu9XvGhl34eMKzIoLQgziQ3i_6lm6FK5uktuSTSjruECFxh6XVG43LkyNS5Zwv_thdX7ErhvKYE');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+#root, body, html{	
 	height: 100%;
-	/*background: url('https://png.pngtree.com/thumb_back/fh260/background/20190903/pngtree-simple-abstract-blue-background-image_313687.jpg')*/
 }
 div .container {
 	max-width: 100%;
+}
+#left-content{
+	background-color: #3f9ebe;
+	height: 622px;
+	max-height: 622px;
+}
+#right-content{
+	background-color: #daf2dc;
+	height: 622px;
+	max-height: 622px;
 }
 *{
 	font-family: "Kaushan Script", cursive;
@@ -83,12 +88,16 @@ div.box-card{
 	overflow: hidden !important;
 	border-radius: 10px;
 	margin-bottom: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
 
+}
+div.box-card .card p {
+	font-size: 17px;
 }
 div.card {
 	transition: all 1s;
 	transform: scale(1);	
+	height: 260px;
 }
 
 div.card:hover {
@@ -117,6 +126,27 @@ div.projects-scroll .card-image img {
 	width: 120px;
 	margin-top: 18px;
 	border-radius: 50%;
+}
+@media (min-width: 768px){
+	#img-about:nth-child(even) .col-md-2 {
+		margin-left: 25%;
+	}
+}
+@media screen and (max-width: 767px) {
+	#img-about:nth-child(even) .col-md-2 {
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#left-content{
+		height: 422px;
+	}
+	#left-content img {
+		margin-top: auto;
+	}
 }
 #img-about .col h4{
 	font-size: 20px;

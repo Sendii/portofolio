@@ -1,5 +1,12 @@
 import React from 'react'
 
+import img_multiinti from '../asset/img/multiinti.PNG'
+import img_divsum from '../asset/img/divsum.PNG'
+import img_pms from '../asset/img/pms.png'
+import img_adpi from '../asset/img/adpi.PNG'
+import img_mdl from '../asset/img/mdl.png'
+import img_laraven from '../asset/img/laraven.PNG'
+
 
 function Project(){
 	return (
@@ -15,18 +22,18 @@ function Project(){
 						<div className="box-card">
 							<div className="card shadow">
 								<div className="card-image">
-								<img src="https://projects-static.raspberrypi.org/projects/lost-in-space/09b440b619f2d2f3d633b8c8e3100a49627cc4d8/en/images/lost-in-space.png" alt="Ini gambar"/>
+								<img src={img_multiinti} alt="Ini gambar"/>
 								</div>
 								<div className="card-body">
 									<div className="card-title">
-										ini title
+									<h5>
+										Multi Inti									</h5>
 									</div>
 									<div className="card-description">
-										ini desc
+										<p>
+											Company Profile
+										</p>
 									</div>
-								</div>
-								<div className="card-footer">
-									ini footer
 								</div>
 							</div>
 						</div>
@@ -35,18 +42,18 @@ function Project(){
 						<div className="box-card">
 							<div className="card shadow">
 								<div className="card-image">
-								<img src="https://projects-static.raspberrypi.org/projects/lost-in-space/09b440b619f2d2f3d633b8c8e3100a49627cc4d8/en/images/lost-in-space.png" alt="Ini gambar"/>
+								<img src={img_divsum} alt="Ini gambar"/>
 								</div>
 								<div className="card-body">
 									<div className="card-title">
-										ini title
+									<h5>
+										Divisi Umum									</h5>
 									</div>
 									<div className="card-description">
-										ini desc
+										<p>
+											Document Monitoring
+										</p>
 									</div>
-								</div>
-								<div className="card-footer">
-									ini footer
 								</div>
 							</div>
 						</div>
@@ -55,18 +62,18 @@ function Project(){
 						<div className="box-card">
 							<div className="card shadow">
 								<div className="card-image">
-								<img src="https://projects-static.raspberrypi.org/projects/lost-in-space/09b440b619f2d2f3d633b8c8e3100a49627cc4d8/en/images/lost-in-space.png" alt="Ini gambar"/>
+								<img src={img_pms} alt="Ini gambar"/>
 								</div>
 								<div className="card-body">
 									<div className="card-title">
-										ini title
+									<h5>
+										Project Management System									</h5>
 									</div>
 									<div className="card-description">
-										ini desc
+										<p>
+											Tracing Shipment with Report
+										</p>
 									</div>
-								</div>
-								<div className="card-footer">
-									ini footer
 								</div>
 							</div>
 						</div>
@@ -75,18 +82,18 @@ function Project(){
 						<div className="box-card">
 							<div className="card">
 								<div className="card-image">
-								<img src="https://projects-static.raspberrypi.org/projects/lost-in-space/09b440b619f2d2f3d633b8c8e3100a49627cc4d8/en/images/lost-in-space.png" alt="Ini gambar"/>
+								<img src={img_adpi} alt="Ini gambar"/>
 								</div>
 								<div className="card-body">
 									<div className="card-title">
-										ini title
+									<h5>
+										Asosiasi Dana Pensiun Indonesia									</h5>
 									</div>
 									<div className="card-description">
-										ini desc
+										<p>
+											Company Profile with Cms
+										</p>
 									</div>
-								</div>
-								<div className="card-footer">
-									ini footer
 								</div>
 							</div>
 						</div>
@@ -95,18 +102,18 @@ function Project(){
 						<div className="box-card">
 							<div className="card shadow">
 								<div className="card-image">
-								<img src="https://projects-static.raspberrypi.org/projects/lost-in-space/09b440b619f2d2f3d633b8c8e3100a49627cc4d8/en/images/lost-in-space.png" alt="Ini gambar"/>
+								<img src={img_mdl} alt="Ini gambar"/>
 								</div>
 								<div className="card-body">
 									<div className="card-title">
-										ini title
+									<h5>
+										MD Logistik									</h5>
 									</div>
 									<div className="card-description">
-										ini desc
+										<p>
+											Company Profile with Cms
+										</p>
 									</div>
-								</div>
-								<div className="card-footer">
-									ini footer
 								</div>
 							</div>
 						</div>
@@ -115,18 +122,18 @@ function Project(){
 						<div className="box-card">
 							<div className="card shadow">
 								<div className="card-image">
-								<img src="https://projects-static.raspberrypi.org/projects/lost-in-space/09b440b619f2d2f3d633b8c8e3100a49627cc4d8/en/images/lost-in-space.png" alt="Ini gambar"/>
+								<img src={img_laraven} alt="Ini gambar"/>
 								</div>
 								<div className="card-body">
 									<div className="card-title">
-										ini title
+									<h5>
+										Laraventory									</h5>
 									</div>
 									<div className="card-description">
-										ini desc
+										<p>
+											Inventory Management School
+										</p>
 									</div>
-								</div>
-								<div className="card-footer">
-									ini footer
 								</div>
 							</div>
 						</div>

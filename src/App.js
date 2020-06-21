@@ -24,10 +24,10 @@ function App() {
         <Header />
           <div className="container">
             <div className="row">
-              <div className="col-sm-4" style={{backgroundColor: "#3f9ebe", height: "622px", maxHeight: "622px"}}>
+              <div className="col-sm-4" id="left-content">
                 <img className="img-fluid center" id="foto" src={img_human} alt=""/>
               </div>
-              <div className="col-sm" style={{backgroundColor: "#daf2dc", height: "622px", maxHeight: "622px"}}>
+              <div className="col-sm" id="right-content">
                 <div className="mt-5 ml-4" style={{margin: "20px"}}>
                   <Switch>
                     <Route path='/' component={Home} exact />
