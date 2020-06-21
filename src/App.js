@@ -9,11 +9,12 @@ import Skill from './component/Skill';
 import Project from './component/Project';
 import About from './component/About';
 import Contact from './component/Contact';
-import img_human from './asset/img/human.png'
+import img_me from './asset/img/foto.png'
 import {
     BrowserRouter as Router,
     Switch,
     Route,
+    NavLink,
   } from "react-router-dom";
 
 function App() {
@@ -25,9 +26,30 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col-sm-4" id="left-content">
-                <img className="img-fluid center" id="foto" src={img_human} alt=""/>
+                <div className="flex justify-center flex-col align-items-center">
+                  <img className="img-fluid center" id="foto" src={img_me} alt=""/>
+                </div>
               </div>
               <div className="col-sm" id="right-content">
+              <div className="container" id="nav-responsive" style={{display: "none"}}>
+                <div className="row">
+                  <div className="col">
+                    <NavLink to="/skills">Skill</NavLink>
+                  </div>
+                  <div className="col">
+                    <NavLink to="/projects">Projects</NavLink>
+                  </div>
+                  <div className="col">
+                    <NavLink to="/">Sendi Dian</NavLink>
+                  </div>
+                  <div className="col">
+                    <NavLink to="/about-us">About</NavLink>
+                  </div>
+                  <div className="col">
+                    <NavLink to="/contact-us">Contact</NavLink>
+                  </div>
+                </div>
+              </div>
                 <div className="mt-5 ml-4" style={{margin: "20px"}}>
                   <Switch>
                     <Route path='/' component={Home} exact />
