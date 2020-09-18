@@ -50,7 +50,7 @@ function App() {
                   </div>
                 </div>
               </div>
-                <div className="mt-5 ml-4" style={{margin: "20px"}}>
+                <div className="mt-5">
                   <Switch>
                     <Route path='/' component={Home} exact />
                     <Route path='/skills' component={Skill} />
