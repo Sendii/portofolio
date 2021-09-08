@@ -1,6 +1,8 @@
 /*Custom scroll bar*/
 /* width */
-
+*:not(i){
+	font-family: 'Ubuntu', sans-serif !important;
+}
 ::-webkit-scrollbar {
 	width: 10px;
 }
@@ -13,7 +15,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #4da2ff; 
+	background: #7BBAFF; 
 	border-radius: 5px;
 }
 
@@ -30,12 +32,12 @@ div .container {
 	max-width: 100%;
 }
 #left-content{
-	background-color: #3f9ebe;
+	background-color: #b5d9ff;
 	height: 622px;
 	max-height: 622px;
 }
 #right-content{
-	background-color: #daf2dc;
+	background-color: #d9ebff;
 	height: 622px;
 	max-height: 622px;
 }

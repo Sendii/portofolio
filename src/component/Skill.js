@@ -32,21 +32,7 @@ function Skill(){
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4">
-						<img className="center img-circle" src={img_php} alt=""/>
-						<div className="row center">
-							<div className="col">PHP</div>
-						</div>
-						<div className="row">
-							<div className="col">
-								<i className="fa fa-star" aria-hidden="true"></i>
-								<i className="fa fa-star" aria-hidden="true"></i>
-								<i className="fa fa-star" aria-hidden="true"></i>
-								<i className="fa fa-star-o" aria-hidden="true"></i>
-								<i className="fa fa-star-o" aria-hidden="true"></i>
-							</div>
-						</div>
-					</div>
+					
 					<div className="col-md-4">
 						<img className="center img-circle" src={img_laravel} alt=""/>
 						<div className="row ml-3">
@@ -81,21 +67,6 @@ function Skill(){
 						<img className="center img-circle" src={img_git} alt=""/>
 						<div className="row center">
 							<div className="col">Git</div>
-						</div>
-						<div className="row">
-							<div className="col">
-								<i className="fa fa-star" aria-hidden="true"></i>
-								<i className="fa fa-star" aria-hidden="true"></i>
-								<i className="fa fa-star" aria-hidden="true"></i>
-								<i className="fa fa-star-o" aria-hidden="true"></i>
-								<i className="fa fa-star-o" aria-hidden="true"></i>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-4">
-						<img className="center img-circle" src={img_bootstrap} alt=""/>
-						<div className="row ml-3">
-							<div className="col">Bootstrap</div>
 						</div>
 						<div className="row">
 							<div className="col">

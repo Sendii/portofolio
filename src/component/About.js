@@ -17,6 +17,21 @@ function About(){
 			<div className="projects-scroll">
 			<div className="row" id="img-about">
 				<div className="col-md-2">
+					<img src={img_work} className="img-circle" alt="not found" />					
+				</div>
+				<div className="col ml-3">
+					<div className="row">
+						<h4>Work at <a href="https://duaz-solusi.co.id/" target="_blank" rel="noopener noreferrer">PT. Duaz Solusi</a> <br /> Juli 2020 - Now</h4>
+					</div>
+					<div className="row">
+						<p>
+							After being affected by the pandemic at work before, I was finally unemployed for two months. In the end I got a job here. I got a lot of new things in this place, starting from being more familiar with reading ERD, and many more, as well as making some pretty big projects, one of which is Market Place.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div className="row" id="img-about">
+				<div className="col-md-2">
 					<img src={img_univ} className="img-circle" alt="not found" />
 				</div>
 				<div className="col ml-3">
