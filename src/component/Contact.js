@@ -10,7 +10,7 @@ function Contact(){
 			<h2>Contact me on: </h2>
 			<div className="row">
 				<div className="col-md mt-3">
-					<a href="https://www.linkedin.com/in/sendii-hadi-8a49261a4/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary"><i className="fa fa-linkedin-square" aria-hidden="true"></i>Sendi Hadi</a>
+					<a href="https://www.linkedin.com/in/sendidian/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary"><i className="fa fa-linkedin-square" aria-hidden="true"></i>Sendi Dian Hadiwijaya</a>
 				</div>
 				<div className="col-md mt-3">
 					<a href="mailto:sendidianhadiwijaya@gmail.com?subject=haii" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary"><i className="fa fa-envelope" aria-hidden="true"></i>sendidianhadiwijaya@gmail.com</a>
