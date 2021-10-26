@@ -68,6 +68,7 @@ nav .bg-light{
 	border-radius: 10px;	
 	text-decoration: underline;
 	font-style: italic;
+	padding: 2px;
 }
 .navbar-nav > a#brand {
 	font-family: "Kaushan Script", cursive;
@@ -213,6 +214,48 @@ div.projects-scroll .card-image img {
 		margin-top: 20px;
 		font-size: 20px;
 		margin-bottom: -20px;
+	}
+
+	#right-content > #nav-responsive a:focus {
+		background-color: #8fc5ff !important;
+		border-radius: 10px;	
+		/*text-decoration: underline;*/
+		font-style: italic;
+		padding: 2px;
+	}
+
+	/*menghilangkan navbar yang diatas*/
+	.navbar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#right-content > #nav-responsive {
+		display: block !important;
+		margin-top: 20px;
+		font-size: 20px;
+		margin-bottom: -20px;
+	}
+
+	#right-content > #nav-responsive .col:nth-child(1){
+		margin-left: -10px;
+	}
+
+	#right-content > #nav-responsive .col:nth-child(2){
+		margin-left: -40px;
+	}
+
+	/*#right-content > #nav-responsive .col:nth-child(1){
+		margin-left: -10px;
+	}*/
+
+	#right-content > #nav-responsive .col:nth-child(4){
+		margin-left: -30px;
+	}
+
+	#right-content > #nav-responsive .col:nth-child(5){
+		margin-left: -10px;
 	}
 
 	#right-content > #nav-responsive a:focus {
